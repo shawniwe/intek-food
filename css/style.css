@@ -1,27 +1,51 @@
-body{
+body {
     color: #000;
     margin: 0;
     padding: 0;
+
+    font-family: 'Montserrat';
 }
+
 .container {
     position: relative;
     margin: 0 auto;
-    
 }
-.delivery{
+
+.p {
+    font-weight: 400;
+}
+
+.h1 {
+    font-weight: 800;
+}
+
+.h2 {
+    font-weight: 700;
+    font-size: 46px;
+}
+
+.h3 {
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.delivery {
     height: 637px;
     background-color: #FBF8F8;
 }
-.delivery__item{
+
+.delivery__item {
     display: flex;
     align-items: center;
     justify-content: center;    
     flex-direction: column;
 }
-.delivery__item-text{
+
+.delivery__item-text {
     font-size: 34px;
 }
-.delivery__item-white{
+
+.delivery__item-white {
     width: 223px;
     height: 278px;
     background-color: white;
@@ -32,14 +56,15 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-.delivery__window{
+
+.delivery__window {
     width: 1200px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
-.delivery__item-orange{
+.delivery__item-orange {
     width: 223px;
     height: 318px;
     background-color: #EE7700;
@@ -51,54 +76,53 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-.delivery__first-text{
+
+.delivery__first-text {
     font-size: 18px;
 }
-.delivery__last-text{
+
+.delivery__last-text {
     font-size: 14px;
 }
-.delivery__img{
+
+.delivery__img {
     width: 35px;
     height: 35px;
 }
 
-
-
-
-.review{
-    width: 1920px;
+.review {
     height: 430px;
     background-image: url(../img/Bg.jpg);
     background-color: burlywood;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
-.review__item-text{
+
+.review__item-text {
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-    
 }
-.review__last-text{
+
+.review__last-text {
     text-align: center;
     font-size: 18px;
 }
-.review__first-text{
-    font-size: 34px;
-    
-    
+
+.review__first-text {
+    font-size: 34px;    
     text-align: center;
 }
-.review__item{
+
+.review__item {
     width: 637px;
     height: 233px;
 }
-.button{
+
+.button {
     width: 246px;
     height: 48px;
     background-color: white;
@@ -109,5 +133,3 @@ body{
     justify-content: center;
     border-radius: 0px 24px 24px 24px;
 }
-
-
